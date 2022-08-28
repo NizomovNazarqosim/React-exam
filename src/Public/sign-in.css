@@ -1,0 +1,67 @@
+.sign-in{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 640px;
+    height: 100vh;
+    background: rgba(201, 172, 140, 0.93);
+}
+.sign-in-img{
+    padding: 100px 38px;
+    width: 500px;
+    height: 500px;
+    background: transparent;
+}
+.right{
+    margin-top: 120px;
+}
+.in-title{
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 51px;
+    color: #000000;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.in-desc{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    color: #000000;
+}
+.in-input{
+    display: block;
+    background: #FFFFFF;
+    width: 330px;
+    height: 46px;
+    border: 1px solid #B4B4BB;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.in-btn{
+    background: #152540;
+    border-radius: 99px;
+    width: 328px;
+    height: 46px;
+    border: none;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-top: 34px;
+}

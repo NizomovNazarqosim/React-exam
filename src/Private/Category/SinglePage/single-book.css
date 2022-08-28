@@ -1,0 +1,137 @@
+.single-book-wrapper{
+    background-color: #191919;
+}
+.single-book{
+    display: flex;
+    width: 1300px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    justify-content: space-between;
+    vertical-align: middle;
+    background-color: #191919;
+}
+.book-left{
+    width: 50vw;
+    display: flex;
+    height: 100%;
+    margin-top: 30px;
+}
+.book-right{
+    margin-top: -20px;
+    width: 45vw;
+    height: 100%;
+    /* display: flex; */
+    margin-left: 10px;
+}
+.book-img{
+    width: 520px;
+    height: 810px;
+    border:  1px solid white;
+}
+.book-title{
+    color: white;
+    text-align: start;
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #C9AC8C;
+}
+.book-details{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.book-page{
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: start;
+}
+.book-details{
+    margin-top: -10px;
+}
+.book-page span{
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;    
+}
+.book-desc{
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    margin-top: 30px;
+}
+.book-link{
+  width: 1260px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+.like{
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #C9AC8C;
+}
+.book-link a{
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.example-list{
+    display: flex;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: space-around;
+    list-style: none;
+    overflow-y:hidden ;
+    margin-left: 20px;
+}
+.example-item{
+    width: 180px;
+    height: 340px;
+    border-radius: 8px;
+    /* padding-left: 20px; */
+}
+.first{
+    margin-left: 20px;
+}
+.example-item img{
+  width: 160px;
+  height: 250px;
+  border-radius: 6px;
+}
+.example-item h3{
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #C9AC8C;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+}

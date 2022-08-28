@@ -1,0 +1,157 @@
+.author{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+    vertical-align: middle;
+    
+}
+.author-left{
+    width: 40%;
+    height: 100%;
+}
+.author-right{
+    width: 60%;
+    height: 100%;
+}
+.author-name{
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #C9AC8C;
+    text-align: start;
+
+}
+.author-image{
+    width: 400px;
+    height: 600px;
+    text-align: start;
+    justify-content: start;
+    margin-left: -100px;
+    margin-top: 50px;
+}
+
+.author-bio{
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.8);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 700px;
+    height: 200px;
+}
+.author-bios{
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.8);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 700px;
+}
+.author-detail{
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.detail-left p{
+    font-family: 'Visuelt Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.detail-right p{
+    font-family: 'Visuelt Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.detail-left h3{
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 144.4%;
+    color: #C9AC8C;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+.detail-right h3{
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 144.4%;
+    color: #C9AC8C;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+.detail-left span{
+    font-family: 'Visuelt Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    margin-top: -20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.detail-right span{
+    font-family: 'Visuelt Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    margin-top: -20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.author-book{
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 34px;
+    text-align: start;
+    
+    color: #C9AC8C;
+    
+}
+.book-wrapper{
+    display: flex;
+}
+.book-wrapper{
+    margin-top: 20px;
+}
+.titles{
+    width: 690px;
+    height: 60px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: bottom;
+}
+.titles a{
+    margin-top: 40px;
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}

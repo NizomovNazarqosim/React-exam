@@ -1,0 +1,19 @@
+.card{
+    width: 165px;
+    height: 302px;
+    margin-left: 6px;
+}
+.card-img{
+    width: 164px;
+    height: 246px;
+    border-radius: 10px;
+}
+.card-title{
+    font-family: 'Rotterburg Stylish FREE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #C9AC8C;
+}
