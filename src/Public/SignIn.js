@@ -36,7 +36,7 @@ function SignIn(){
        
 }
     return(
-        <>
+        <div className="in-w" style={{backgroundColor:"white"}}>
         <div className="sign-in">
            <div className="left">
               <img className="sign-in-img" src={SignInImg} alt="image" />
@@ -56,7 +56,7 @@ function SignIn(){
         </div>
 
        
-        </>
+        </div>
     )
 }
 export default SignIn;

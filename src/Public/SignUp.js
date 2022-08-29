@@ -40,7 +40,7 @@ function SignUp(){
         })
     }
 
-    return(<>
+    return(<div style={{backgroundColor:"white"}}>
         <div className="sign-up">
            <div className="left">
               <img className="sign-img" src={signImg} alt="img" />
@@ -62,7 +62,7 @@ function SignUp(){
            </div>
         </div>
           
-        </>
+        </div>
     )
 }
 export default SignUp;
